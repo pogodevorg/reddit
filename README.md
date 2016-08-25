@@ -1,2 +1,4 @@
 # reddit
-Reddit source and related tools and documentation.
+Reddit specific source, tools, images and documentation.
+
+https://www.reddit.com/r/pokemongodev
