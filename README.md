@@ -39,7 +39,7 @@ Currently, you can contribute to this project by:
 
 * [![Build Status](https://github.com/Lisiano256.png?size=36) - Lisiano256](https://github.com/Lisiano256)
 
-* [![Build Status](https://github.com/nullpixel1.png?size=36) - Lisiano256](https://github.com/nullpixel1)
+* [![Build Status](https://github.com/nullpixel1.png?size=36) - nullpixel1](https://github.com/nullpixel1)
 
 ## Credits
     None
