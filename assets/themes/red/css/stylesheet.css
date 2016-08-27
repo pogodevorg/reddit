@@ -587,12 +587,8 @@ body .content .sitetable .link .title a:hover {
 	color: #24a0ed;
 }
 
-.content .thing .title:visited, .content .thing.visited .title {
-	color: #738491;
-}
-
-.thing .title.loggedin.click:visited, .thing .title.click:visited {
-	color: #24a0ed;
+.content .thing .title:visited, .content .thing.visited .title, .thing .title.loggedin.click:visited, .thing .title.click:visited {
+	color: #999;
 }
 
 .link .domain {
@@ -931,7 +927,7 @@ body .content .thing.spam {
 }
 
 .entry .buttons li.reported-stamp {
-	background-color: transparent;
+	background-color: #ccc;
 	border: 1px solid #EDEEEE!important;
 	border-radius: 2px;
 	color: #292f34;
@@ -3325,7 +3321,7 @@ html.res-commentBoxes .comment {
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
 }
 
-body.listing-page>.content, body.other-discussions-page>.content, .comments-page .link, .commentarea>.sitetable>.comment, #images, .combined-search-page>.content, .sponsorshipbox, .commentarea>.usertext, .stylesheet-customize-container .pretty-form, .side .sidecontentbox, .account-activity-box, .side .titlebox, #previoussearch #moresearchinfo, #ad-frame, #ad_main, .wiki-page .wiki-page-content, .linefield, .submit-page .roundfield, .login-form-side, .linkinfo {
+body>.content, body.other-discussions-page>.content, .comments-page .link, .commentarea>.sitetable>.comment, #images, .combined-search-page>.content, .sponsorshipbox, .commentarea>.usertext, .stylesheet-customize-container .pretty-form, .side .sidecontentbox, .account-activity-box, .side .titlebox, #previoussearch #moresearchinfo, #ad-frame, #ad_main, .wiki-page .wiki-page-content, .linefield, .submit-page .roundfield, .login-form-side, .linkinfo {
 	border: none;
 	background-color: #fff;
 	padding: 16px;
@@ -3666,7 +3662,7 @@ body.listing-page>.content, body.other-discussions-page>.content, .comments-page
 	background-color: #e3302d;
 }
 
-.thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title, .link .entry .buttons li a.comments, .link .entry .buttons li a.flairselectbtn, .link .entry .buttons li a:hover, .titlebox .tagline a.flairselectbtn, .md a, .side .titlebox .md h4 a, .wiki-page .wiki-page-content .md.wiki h4, .sidebox.create .morelink a, a, .side:after, .usertext .bottom-area a.reddiquette, .wiki-page .pageactions .wikiaction-current, .tagline .submitter, .combined-search-page .search-result .search-result-header .search-title, .combined-search-page .search-result a, .combined-search-page .search-result a>mark, .combined-search-page .search-result .search-comments, .flairselector h2, .linefield .title, body .content .sitetable .link .title a:hover, .link .entry .tagline a:hover, .comment .author:hover, .comment .flat-list li a[onclick*="reply"], .md a:visited, .link .entry .tagline a, .comment .author, .commentarea .menuarea .dropdown.lightdrop .selected:hover, .commentarea .menuarea .toggle a:hover, .help-hoverable:hover, .usertext .bottom-area a:hover, .comment .flat-list li a:hover {
+.thing .title.loggedin.click, .thing .title.click, .link .entry .buttons li a.comments, .link .entry .buttons li a.flairselectbtn, .link .entry .buttons li a:hover, .titlebox .tagline a.flairselectbtn, .md a, .side .titlebox .md h4 a, .wiki-page .wiki-page-content .md.wiki h4, .sidebox.create .morelink a, a, .side:after, .usertext .bottom-area a.reddiquette, .wiki-page .pageactions .wikiaction-current, .tagline .submitter, .combined-search-page .search-result .search-result-header .search-title, .combined-search-page .search-result a, .combined-search-page .search-result a>mark, .combined-search-page .search-result .search-comments, .flairselector h2, .linefield .title, body .content .sitetable .link .title a:hover, .link .entry .tagline a:hover, .comment .author:hover, .comment .flat-list li a[onclick*="reply"], .md a:visited, .link .entry .tagline a, .comment .author, .commentarea .menuarea .dropdown.lightdrop .selected:hover, .commentarea .menuarea .toggle a:hover, .help-hoverable:hover, .usertext .bottom-area a:hover, .comment .flat-list li a:hover {
 	color: #E95C5A;
 }
 
@@ -4004,7 +4000,7 @@ input.search-input, .post-sharing, #report-action-form, .post-sharing .post-shar
 	background: #1F2120!important;
 }
 
-.side .titlebox form.flairtoggle, .side .linkinfo, .side .linkinfo .shortlink, .res-sr-style-toggle, .res-style-checkbox, .flair_enabled, .listing-page .side .titlebox .md h5, .side, .side .titlebox h1.redditname:before, body.listing-page>.content, body.other-discussions-page>.content, .comments-page .link, .commentarea>.sitetable>.comment, #images, .combined-search-page>.content, .sponsorshipbox, .commentarea>.usertext, .stylesheet-customize-container .pretty-form, .side .sidecontentbox, .account-activity-box, .side .titlebox, #previoussearch #moresearchinfo, #ad-frame, #ad_main, .wiki-page .wiki-page-content, .linefield, .submit-page .roundfield, .login-form-side {
+.side .titlebox form.flairtoggle, .side .linkinfo, .side .linkinfo .shortlink, .res-sr-style-toggle, .res-style-checkbox, .flair_enabled, .listing-page .side .titlebox .md h5, .side, .side .titlebox h1.redditname:before, body>.content, body.other-discussions-page>.content, .comments-page .link, .commentarea>.sitetable>.comment, #images, .combined-search-page>.content, .sponsorshipbox, .commentarea>.usertext, .stylesheet-customize-container .pretty-form, .side .sidecontentbox, .account-activity-box, .side .titlebox, #previoussearch #moresearchinfo, #ad-frame, #ad_main, .wiki-page .wiki-page-content, .linefield, .submit-page .roundfield, .login-form-side {
 	background: #1f2123 !important;
 }
 
@@ -4061,6 +4057,17 @@ body .content .text, body .content textarea, body .content input[type=text], bod
 }
 table.md>tbody>tr:first-child {
     background-color: #18191b!important;
+}
+
+.thing .title, .thing .title .loggedin {
+    color: #ccc;
+    font-size:medium;
+}
+.content .thing .title:visited, .content .thing.visited .title {
+    color: #999;
+}
+.entry .tagline, .link .domain a, .entry .buttons li a, .flair {
+    color: #ccc;
 }
 
 /* Fuck. RES. */
