@@ -3,7 +3,6 @@
 # reddit [![license](https://img.shields.io/github/license/pogodevorg/reddit.svg?maxAge=2592000?style=flat-square)](https://github.com/pogodevorg/reddit/blob/master/LICENSE)
 
 ## Table of Contents
-
 * [What is it?](#what-is-it)
 * [Installation](#installation)
 * [Documentation](#documentation)
