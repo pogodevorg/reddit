@@ -1,6 +1,6 @@
 [![POGODEV](https://github.com/pogodevorg/assets/blob/master/public/img/logo-github.png?raw=true)](https://pogodev.org)
 
-# reddit [![license](https://img.shields.io/github/license/pogodevorg/reddit.svg?maxAge=2592000?style=flat-square)](https://github.com/pogodevorg/reddit/blob/master/LICENSE)
+# reddit [![license](https://img.shields.io/github/license/pogodevorg/reddit.svg?maxAge=2592000?style=flat-square)](https://github.com/pogodevorg/reddit/blob/master/LICENSE.md)
 
 ## Table of Contents
 * [What is it?](#what-is-it)
